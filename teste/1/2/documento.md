@@ -1,4 +1,4 @@
-![Teste](http://ciro.inie.com.br/public/images/teste-logo.png)
+![Teste](//ciro.inie.com.br/public/images/test-logo.png)
 
 > Área - Teste<br />
 > Documento de Especificação Técnica
