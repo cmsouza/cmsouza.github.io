@@ -1,4 +1,4 @@
-# Segmentação de Mídia para ECs
+# Alelo Desenvolve - Segmentação de Mídia para ECs
 
 ## Geração da lista
 O Google sugere que seja utilizada encriptação SHA256 para adição de dados pessoais ao Google Analytics.
