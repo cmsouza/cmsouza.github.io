@@ -1,6 +1,16 @@
+![Zoly](http://lucida-brasil.github.io/public/Images/zoly-logo.png)
+
+Área - Digital Analytics
+
 # Alelo Desenvolve - Segmentação de Mídia para ECs
 
-## Geração da lista
+Última atualização: 13/03/2018
+
+## Objetivo
+Criar uma lista de hashes de e-mails e CNPJs de clientes Alelo para segmentar a entrega de mídia digital.
+
+## Implementação
+### Geração da lista
 O Google sugere que seja utilizada encriptação SHA256 para adição de dados pessoais ao Google Analytics.
 
 A lista com os dados pode ser apenas um arquivo texto contendo um dado por linha
@@ -21,7 +31,7 @@ $ cat emails_habilitados|while read line; do echo -n "${random}${line}"|sha256su
 $ cat emails_nao_habilitados|while read line; do echo -n "${random}${line}"|sha256sum; done|awk '{print $1 ";nao"}' >> lista_emails.csv
 ```
 
-## Resultado
+### Resultado
 A lista contendo os hashes e a informação se deve ou não receber a mídia direcionada é criada:
 ```
 $ cat lista_emails.csv
